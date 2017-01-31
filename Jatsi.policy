@@ -1,0 +1,4 @@
+grant signedBy "Markus" {
+	permission java.net.SocketPermission
+	"*:1099", "accept, connect, listen, resolve" signedBy "Markus";
+};

@@ -73,7 +73,7 @@ public class NoppaPeliPelaaja extends UnicastRemoteObject implements NoppaPeliAs
 	public int getHeitonNro() {
 		return this.heitonNro;
 	}
-	public static int getPisteet() {
+	public int getPisteet() {
 		return pisteet;
 	}
 	public int getNoppa1() {

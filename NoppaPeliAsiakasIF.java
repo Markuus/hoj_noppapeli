@@ -7,7 +7,8 @@ public interface NoppaPeliAsiakasIF extends Remote {
 	
 	public void vastaanotaViesti(String viesti) throws RemoteException;
 	
-	public void heitaKaikkiNopat() throws RemoteException;
+	public static void heitaKaikkiNopat() throws RemoteException {
+	}
 	
 	public void heitaXNopat() throws RemoteException;
 	

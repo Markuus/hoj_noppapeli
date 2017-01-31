@@ -59,11 +59,10 @@ public class NoppaPeliAsiakas extends UnicastRemoteObject implements NoppaPeliAs
 	}
 	
 	public int annaPisteet() throws RemoteException {
-		return NoppaPeliPelaaja.getPisteet();
+		return this.getPisteet();
 	}
 	
 
-	@Override
 	public void heitaKaikkiNopat() throws RemoteException {
 		 //TODO Auto-generated method stub
 		
@@ -132,6 +131,7 @@ public class NoppaPeliAsiakas extends UnicastRemoteObject implements NoppaPeliAs
 		}
 		}
 	}
+	@Override
 	public int getPisteet() {
 		// TODO Auto-generated method stub
 		return 0;
